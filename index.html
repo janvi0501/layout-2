@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-content">
+        <img class="photo1" src="\image\image1.png" alt="mega"><hr>
+        <div class="checkout-content">
+            <div class="form-content">
+            <form>
+                <h2>Checkout</h2>
+                <h3>Shipping Address</h3><hr>
+                <label class="create" for="email">Email Address*</label>
+                <input class="new" type="email" id="email" name="email">
+                <p class="account">You can create an account after checkout</p><hr>
+                <label class="create" for="firstname">Frist Name*</label>
+                <input class="new" type="firstname" id="firstname" name="firstname">
+                <label class="create" for="lastname">last Name*</label>
+                <input class="new" type="lastname" id="lastname" name="lastname">
+                <label class="create" for="company">company</label>
+                <input class="new" type="company" id="company" name="company">
+                <label class="create" for="street address">Street Address*</label>
+                <input class="new" type="street address" id="street address" name="street address">
+                <input class="new" type="street address" id="street address" name="street address">
+                <label class="create" for="city">city*</label>
+                <input class="new" type="city" id="city" name="city">
+                <label class="create" for="state/Province">State/Province*</label>
+                <select class="new">
+                    <option>Gujarat</option>
+                    <option>Rajstan</option>
+                    <option>Maharastra</option>
+                </select>
+                <label class="create" for="zip/postal code">Zip/Postal code*</label>
+                <input class="new" type="zip/postal code" id="zip/postal code" name="zip/postal code">
+                <label class="create" for="country">country*</label>
+                <select class="new">
+                    <option>India</option>
+                    <option>America</option>
+                    <option>new zeland</option>
+                </select>
+                <label class="create" for="Phone Number">Phone Number*</label>
+                <input class="new" type="Phone Number" id="Phone Number" name="Phone Number">
+                <input class="bill" type="checkbox">
+                <label class="account" for="bill">My billing and shipping address are the same</label>
+                <h3>Shipping Methods</h3><hr>    
+                <p class="rate"><b>Best Way -</b> Table Rate $15.00</p>
+                <h3>Payment</h3><hr> 
+                <input class="pay" id="cod" type="radio" value="op1" name="Payment">
+                <label class="by" for="cod">Cash On Delivery</label>
+                    <div class="visible">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quos magnam?
+                    </div><hr>
+
+                <input class="pay" id="pay_by_paypal" type="radio" value="op2" name="Payment">
+                <label class="by" for="pay_by_paypal">Pay by Paypal</label>
+                    <div class="visible">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quos magnam?
+                    </div><hr>
+
+                <input class="pay" id="bank_transfar" type="radio" value="op3" name="Payment">
+                <label class="by" for="bank_transfar">Bank Transfar</label>
+                    <div class="visible">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quos magnam?
+                    </div><hr>
+        
+                <input class="pay" id="payByCard" type="radio" value="op4" name="Payment">
+                <label class="by" for="payByCard">Pay by Card</label>
+                    <div class="visible">
+                        <label class="create">Name on card*</label>
+                        <input class="new" type="name on card" name="name on card">
+                        <label class="create">card number*</label>
+                        <input class="new" type="card number" name="card number">
+                        <div class="expire_cvv">
+                            <div class="expire_col">
+                                <label class="create">Expiration date*</label>
+                                <div class="expire_row">
+                                    <div class="first_col">
+                                        <select class="new">
+                                            <option>month</option>
+                                            <option>jan</option>
+                                            <option>feb</option>
+                                            <option>mar</option>
+                                            <option>april</option>
+                                        </select>
+                                    </div>
+                                    <div class="first_col">
+                                        <select class="new">
+                                            <option>year</option>
+                                            <option>2001</option>
+                                            <option>2002</option>
+                                            <option>2003</option>
+                                            <option>2004</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cvv_col">
+                                <label class="create">cvv/cvc*</label>
+                                <input class="new" type="text" name="cvv">
+                            </div>
+                        </div>
+                    </div>
+                <div>
+                    <button class="button1">PLACE ORDER</button>    
+                </div>
+            </form>
+            </div>
+        
+       
+            <div class="order-content">
+                <table>
+                    <tr>
+                        <th colspan="3">Order Summary</th>
+                    </tr>
+                    <tr class="cell_border">
+                        <td>
+                            <img class="photo1" src="\image\download (1).jpg" alt="music">
+                        </td>
+                        <td>
+                            <p><strong>Burnishers</strong></p>
+                            <p><strong>Qty :</strong> 1</p>
+                            <p><strong>color :</strong> yellow</p>
+                        </td>
+                        <td>
+                            $2670.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Card Subtotal</td>
+                        <td>$2670.00</td>
+                    </tr>
+                    <tr class="cell_border">
+                        <td colspan="2">Shipping Flat Rate-Fixed</td>
+                        <td>$5.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Order Total</td>
+                        <td>$2675.00</td>
+                    </tr>
+                </table>
+            </div> 
+        </div>       
+    </div>
+</body>
+</html>

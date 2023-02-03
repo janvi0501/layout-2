@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+ul, ol {
+    margin: 0px;
+    padding: 0px;
+}
+input, button {
+    box-shadow: none !important;
+    outline: none !important;
+}
+/* hr{
+    margin: 0px;
+    padding: 0px;
+} */
+.page-content{
+    padding: 0px 15px;
+    max-width: 1150;
+    width: 50%;
+    margin: auto;
+}
+
+.photo1{
+    height:100px;
+    width:auto;
+}
+
+.checkout-content{
+    margin: 0px -15px;
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+}
+
+.form-content{
+    padding: 0px 15px;
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+h2{
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+.create{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.new{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    height:55px;
+}
+.account{
+    font-size: 20px;
+    color: gray;
+}
+.bill{
+    margin-bottom: 20px;
+}
+.rate{
+    margin-top: 18px;
+    margin-bottom: 25px; 
+}
+
+.visible{
+    display: none;
+}
+
+input:checked + label+ div{
+    display: block;
+}
+
+.pay{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.by{
+    font-size: 20px;
+}
+.expire_cvv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+.expire_col {
+    flex: 0 0 66.66%;
+    padding: 0px 15px;
+    max-width: 66.66%;
+}
+.expire_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+.first_col {
+    flex: 0 0 50%;
+    padding: 0px 15px;
+    max-width: 50%;
+}
+.cvv_col {
+    flex: 0 0 33.33%;
+    padding: 0px 15px;
+    max-width: 33.33%;
+}
+.button1{
+   border: none;
+   color: white;
+   text-align: center;
+   background-color: red;
+   padding: 20px 30px;
+   float: right;
+}
+
+.photo2{
+    height:100px;
+    width:100px;
+}
+
+table{
+    background-color: rgba(251, 251, 251, 0.956);
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.photo1{
+    height:100px;
+    width: 100px;
+}
+
+th,td{
+    padding: 10px;
+    vertical-align: top;
+}
+
+th:nth-of-type(1){
+    border-bottom: 1px solid #ddd;
+}
+.cell_border td {
+    border-bottom: 1px solid #ddd;
+}
+
+td,p{
+    padding-bottom: 10px;
+}
+
+.order-content{
+    margin-top: 80px;
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding: 0px 15px;
+    flex-wrap: wrap;
+}
